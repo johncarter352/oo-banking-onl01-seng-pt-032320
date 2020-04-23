@@ -9,8 +9,8 @@ class BankAccount
   end
   
   def deposit(money)
-    money = []
-    if
+    money += @balance
+  end
     
 
 end
