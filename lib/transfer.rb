@@ -33,5 +33,6 @@ class Transfer
     @sender.balance += @amount
     @receiver.balance -= @amount_transaction.reverse
   end
+end
   
 end
