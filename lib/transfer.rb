@@ -28,4 +28,8 @@ class Transfer
     end 
   end
   
+  def reverse_transfer
+    self.excecute_transaction.reverse
+  end
+  
 end
